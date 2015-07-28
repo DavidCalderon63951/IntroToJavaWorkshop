@@ -7,8 +7,15 @@ public class MyFirstJavaProgram {
 		
 		// START HERE
 
-		new Robot();
-		
-		
+		Robot Bob= new Robot ();
+		Bob.setRandomPenColor();
+		Bob.setSpeed(200);
+		Bob.setPenWidth(10);
+		Bob.penDown();
+	for (int i = 0; i < 3; i++) {
+		Bob.move(10);
+		Bob.turn(120);
+	}
+	
 	}
 }
